@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <img class="logo" src="/img/logo.png" alt="">
+      <div>
+      <h1 style="text-align: center">Formulir Pendaftaran</h1>
+      <h2 style="text-align: center; font-weight: 100;">Isi wir</h2>
+      <br><br><br><br><br>
+      <form action="">
+        <!-- nama lengkap -->
+        <div class="form-group" class="form-group">
+          <label for="nama">Nama Lengkap :</label>
+          <br /><br>
+          <input type="text" id="nama" />
+        </div>
+
+        <!-- email -->
+        <div class="form-group">
+          <label for="mail">Masukan Email :</label>
+          <br /><br>
+          <input type="email" id="mail" />
+        </div>
+
+        <!-- alamat -->
+        <div class="form-group">
+          <label for="alamat">Masukan alamat :</label>
+          <br /><br>
+          <textarea name="alamat" id="alamat"></textarea>
+        </div>
+
+        <!-- jenis kelamin -->
+        <div class="form-group">
+          <label for="jenisKelamin">Jenis Kelamin :</label>
+
+          <input type="radio" id="lk" name="jenisKelamin" />
+          <label for="lk">Laki-laki</label>
+
+          <input type="radio" id="pr" name="jenisKelamin" />
+          <label for="pr">Perempuan</label>
+        </div>
+
+        <!--  hobi -->
+        <div class="form-group">
+          <label for="hobi">Hobi :</label>
+
+          <input type="checkbox" id="musik" name="hobi" />
+          <label for="musik">Mendengarkan Musik</label>
+
+          <input type="checkbox" id="nari" name="hobi" />
+          <label for="nari">Menari</label>
+
+          <input type="checkbox" id="bk" name="hobi" />
+          <label for="bk">Membaca Buku</label>
+        </div>
+
+        <!-- kelas -->
+        <div class="form-group">
+          <label for="kls">Kelas :</label>
+<br><br>
+          <select name="kls" id="kls " class="opsi">
+            <option value="">X PPLG 1</option>
+            <option value="">X PPLG 2</option>
+            <option value="">X TJKT 1</option>
+            <optionx`x value="">X TJKT 2</option>
+            <option value="">XI PPLG 1</option>
+            <option value="">XI PPLG 2</option>
+            <option value="">XI TJKT 1</option>
+            <option value="">XI TJKT 2</option>
+            <option value="">XI DKV 1</option>
+            <option value="">XI DKV 2</option>
+            <option value="">XI AKL 1</option>
+            <option value="">XI AKL 2</option>
+            <option value="">XII RPL 1</option>
+            <option value="">XII RPL 2</option>
+          </select>
+        </div>
+    </div>
+        <input type="submit" value="daftar" />
+      </form>
+    </div>
+  </body>
+</html>
